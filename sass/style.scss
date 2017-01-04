@@ -1,0 +1,69 @@
+@import "../node_modules/font-awesome/css/font-awesome.min.css";
+
+// === Vars ===
+$cell-border: #e2dbdb;
+$board-border: #844242;
+
+.maze{
+    width: 100%;
+    height: 550px;
+    border: 2px solid $board-border;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    .row {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-grow: 1;
+    }
+
+    .cell {
+        border: 1px solid $cell-border;
+        flex-grow: 1;
+        text-align: center;
+
+    }
+
+
+    .wall {
+        background-color: red;    
+    }
+
+    .route {
+        background-color: lightgoldenrodyellow;
+    }
+    .passedHere {
+        background-color: blue;
+    }
+
+    .finish {
+        background-color: gold;
+
+    }
+    .start {
+        background-color: green;
+      
+    }
+}
+
+.tools {
+    display: flex;
+    padding-left: 20%;
+    padding-right: 20%;
+    justify-content: center;
+    height: 50px;
+
+    .btn{
+        flex-grow: 1;
+    }
+    .red-btn{
+        background: red;
+    }
+    .yellow-btn{
+        background: yellow; 
+    }
+    .green-btn{
+        background: limegreen; 
+    }
+}

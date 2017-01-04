@@ -1,0 +1,26 @@
+{
+  "name": "maze",
+  "version": "1.0.0",
+  "description": "A simple program that demonstrates the use of recursion in find path",
+  "main": "maze.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass --watch sass/style.scss css/style.css",
+    "dev": "lite-server"
+  },
+  "keywords": [
+    "recursion",
+    "maze",
+    "coding",
+    "es6"
+  ],
+  "author": "Omer Zfira",
+  "license": "ISC",
+  "devDependencies": {
+    "font-awesome": "^4.7.0",
+    "lite-server": "^2.2.2"
+  },
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}

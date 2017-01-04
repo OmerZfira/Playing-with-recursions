@@ -1,0 +1,41 @@
+@import url(../node_modules/font-awesome/css/font-awesome.min.css);
+.maze {
+  width: 100%;
+  height: 550px;
+  border: 2px solid #844242;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; }
+  .maze .row {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-grow: 1; }
+  .maze .cell {
+    border: 1px solid #e2dbdb;
+    flex-grow: 1;
+    text-align: center; }
+  .maze .wall {
+    background-color: red; }
+  .maze .route {
+    background-color: lightgoldenrodyellow; }
+  .maze .passedHere {
+    background-color: blue; }
+  .maze .finish {
+    background-color: gold; }
+  .maze .start {
+    background-color: green; }
+
+.tools {
+  display: flex;
+  padding-left: 20%;
+  padding-right: 20%;
+  justify-content: center;
+  height: 50px; }
+  .tools .btn {
+    flex-grow: 1; }
+  .tools .red-btn {
+    background: red; }
+  .tools .yellow-btn {
+    background: yellow; }
+  .tools .green-btn {
+    background: limegreen; }
